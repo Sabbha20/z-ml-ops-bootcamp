@@ -1,0 +1,7 @@
+# fine-tuning
+torch
+datasets
+transformers
+peft
+bitsandbytes
+ipykernel

@@ -1,0 +1,165 @@
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[oc]
+*.egg-info/
+build/
+dist/
+wheels/
+.venv/
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# ==============================================================================
+# IDE & Editor Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# ==============================================================================
+# LLM Fine-tuning & Model Artifacts
+# ==============================================================================
+# Model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+checkpoint-*/
+runs/
+models/
+model_weights/
+lora_weights/
+adapters/
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+.huggingface/
+
+# LoRA and adapter outputs
+lora_*/
+adapter_*/
+
+# ==============================================================================
+# GenAI & LLM-specific
+# ==============================================================================
+# OpenAI, Anthropic, and other API responses
+*.jsonl.cache
+llm_cache/
+api_responses/
+embeddings/
+
+# ==============================================================================
+# MLOps & LLMOps Artifacts
+# ==============================================================================
+# Data files
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.parquet
+*.npy
+*.npz
+*.h5
+*.pkl
+*.pickle
+
+# Training logs and metrics
+logs/
+*.log
+wandb/
+mlruns/
+experiments/
+tensorboard/
+lightning_logs/
+tb_logs/
+
+# Model registries and metadata
+model_registry/
+registry/
+
+# ==============================================================================
+# Evaluation Metrics & Results
+# ==============================================================================
+eval_results/
+evaluation_outputs/
+metrics/
+*.json
+benchmarks/
+test_results/
+
+# ==============================================================================
+# LangChain & LanggGraph
+# ==============================================================================
+.langchain/
+langchain_cache/
+langgraph_cache/
+.langserve/
+*.pickle
+memory/
+
+# ==============================================================================
+# MCP (Model Context Protocol)
+# ==============================================================================
+mcp_cache/
+mcp_logs/
+mcp_artifacts/
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/
+.jupyter/
+
+# ==============================================================================
+# OS-specific
+# ==============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ==============================================================================
+# Claude/AI Generated files (if applicable)
+# ==============================================================================
+artifacts/
+
+# ==============================================================================
+# Temporary & Build Files
+# ==============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Environment-specific
+# ==============================================================================
+.env*
+!.env.example
+!.env.*.example
+secrets/
+credentials/
