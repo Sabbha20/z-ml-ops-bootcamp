@@ -5,3 +5,4 @@ transformers
 peft
 bitsandbytes
 ipykernel
+mlflow
