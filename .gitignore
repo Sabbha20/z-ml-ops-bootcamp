@@ -163,3 +163,27 @@ htmlcov/
 !.env.*.example
 secrets/
 credentials/
+
+# ==============================================================================
+# MLflow, Airflow, DagHub
+# ==============================================================================
+# MLflow local tracking
+mlruns/
+mlflow.db
+mlflow_server.log
+mlflow_artifacts/
+
+# Airflow local files
+airflow_home/
+airflow.cfg
+airflow.db
+.airflowignore
+airflow_logs/
+webserver.log
+scheduler.log
+
+# DagHub
+.dagshub/
+.dagshubrc
+dagshub-*
+dagshub/
