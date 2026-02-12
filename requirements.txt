@@ -6,3 +6,9 @@ peft
 bitsandbytes
 ipykernel
 mlflow
+scikit-learn
+numpy
+pandas
+scipy
+psutil
+cloudpickle
